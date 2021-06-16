@@ -1,23 +1,15 @@
 #Add Implementation
 def add(x,y):
-    return x+y
+    pass
 
 #Subtract Implementation
 def subtract(x,y):
-    return x-y          #master
+    pass
 
 #Multiply Implementation
 def multiply(x,y):
-    return x*y          #Bug456 branch
+    pass
 
 #Divide Implementation
 def divide(x,y):
-    if x<0:
-        return NEGATIVE_PARAM_ERROR     #on master branch
-    if y==0:  
-        return DIVIDE_BY_0_ERROR     #Bug789
-    else:
-        return x/y
-        
-def square(x):
-    return x*x
+   pass
