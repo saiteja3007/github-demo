@@ -12,4 +12,7 @@ def multiply(x,y):
 
 #Divide Implementation
 def divide(x,y):
-    return x/y             #main branch
+    if y==0                 #Bug789
+        return DIVIDE_BY_0_ERROR
+    else
+        return x/y
